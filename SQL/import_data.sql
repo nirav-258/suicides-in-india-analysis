@@ -12,7 +12,7 @@ CREATE TABLE suicides_in_india(
 --Importing data 
 COPY
 suicides_in_india (State, Year, Type_code, Type, Gender, Age_group, Total)
-FROM 'D:\Projects\Data Analysis\suicides-in-india-analysis\Orignal Data\Suicides_in_India_2001_2012.csv'
+FROM 'D:\Projects\Data Analysis\suicides-in-india-analysis\Data\Orignal Data\Suicides_in_India_2001_2012.csv'
 -- type file path where you saved csv file (copy file path and paste here)
 DELIMITER ','
 CSV HEADER;
@@ -20,3 +20,4 @@ CSV HEADER;
 -- checking data
 SELECT * FROM suicides_in_india
 
+DROP TABLE suicides_in_india

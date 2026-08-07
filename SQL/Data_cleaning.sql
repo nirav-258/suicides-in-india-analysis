@@ -24,8 +24,9 @@ COPY (
     FROM suicides_in_india 
     WHERE suicides_in_india.total<>0 
         AND suicides_in_india.state NOT ILIKE '%total%'
+        AND suicides_in_india.age_group NOT ILIKE '0-100+'
 ) 
-To 'D:\Projects\Data Analysis\suicides-in-india-analysis\cleaned data\suicides_in_india_cleaned_data.csv'
+To 'D:\Projects\Data Analysis\suicides-in-india-analysis\Data\cleaned data\suicides_in_india_cleaned_data.csv'
 WITH (FORMAT csv, HEADER true);
 
 -- check cleaned data file
