@@ -153,12 +153,12 @@ The interactive `.pbix` file is available in [`Power BI Dashboards/`](Power%20BI
 
 ## Key Findings
 - Suicides in India rose from **108.5K (2001)** to a peak of **135.6K (2011)** — roughly a 25% increase over the decade — before dropping to **120.5K in 2012**.
-![year vs suicides,growth rate](Charts/Year-VS-Total-Number-Of-Suicides-Occurred-and-growth-rate.png)
+![year vs suicides,growth rate](Charts/Year_VS_Total_Number_Of_Suicides_Occurred_and_growth_rate.png)
 - **Maharashtra**, **Tamil Nadu**, and **West Bengal** consistently report the highest totals among all states/UTs.
 - The **15–29** and **30–44** age groups account for the largest share of cases nationally.
-![overall distribution of age group](Charts/Overall-distribution-of-age-group.png)
+![overall distribution of age group](Charts/Overall_distribution_of_age_group.png)
 - Male suicides outnumber female suicides roughly **64% to 36%** overall.
-![overall distributin of gender](Charts/Overall-distribution-of-male-and-female.png)
+![overall distributin of gender](Charts/Overall_distribution_of_male_and_female.png)
 - **Family Problems** and **Insanity/Mental Illness** are the two leading reported causes, together making up over half of the top-5 causes.
 - **Poisoning** and **Hanging** are the most common means adopted nationally.
 - **West Bengal**, **Andhra Pradesh**, **Karnataka**, **Tamil Nadu**, and **Madhya Pradesh** are the top five states with the highest number of child suicides.
