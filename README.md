@@ -8,7 +8,6 @@ Data analysis of suicide trends across Indian states (2001–2012) using NCRB da
 - [Overview](#overview)
 - [Objective](#objective)
 - [Tools Used](#tools-used)
-- [Repository Structure](#repository-structure)
 - [Data Source](#data-source)
 - [Data Understanding](#data-understanding)
 - [A Critical Note on `Type_code`](#a-critical-note-on-type_code)
@@ -20,7 +19,7 @@ Data analysis of suicide trends across Indian states (2001–2012) using NCRB da
 - [Limitations](#limitations)
 - [How to Reproduce](#how-to-reproduce)
 - [License](#license)
-- [Author](#author)
+
 
 ---
 
@@ -172,10 +171,10 @@ The interactive `.pbix` file is available in [`Power BI Dashboards/`](Power%20BI
 
 ## How to Reproduce
 1. Clone this repository
-2. Load [`Suicides_in_India_2001_2012.csv`](Data/Original_Data/) into PostgreSQL using the scripts in [`SQL/`](SQL/)
+2. Load [`Suicides_in_India_2001_2012.csv`](Data/Orignal_Data/Suicides_in_India_2001_2012.csv) into PostgreSQL using the scripts in [`SQL/`](SQL/)
 3. Run the cleaning query to generate the cleaned CSV
-4. Open the notebooks in [`Python Notebooks/`](Python%20Notebooks/) in order (Exploratory → State Trend → Demographic → Causes)
-5. Open the `.pbix` file in [`Power BI Dashboards/`](Power%20BI%20Dashboards/) with Power BI Desktop (free) to explore the dashboard interactively
+4. Open the notebooks in [`Python Notebooks/`](Python_Notebooks) in order (Exploratory → State Trend → Demographic → Causes)
+5. Open the `.pbix` file in [`Power BI Dashboards/`](Power_BI_Dashboards) with Power BI Desktop (free) to explore the dashboard interactively
 
 ---
 
