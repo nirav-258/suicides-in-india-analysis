@@ -122,7 +122,7 @@ WITH (FORMAT csv, HEADER true);
 ---
 
 ## Analysis Notebooks
-All notebooks live in [`Python Notebooks/`](Python%20Notebooks/).
+All notebooks live in [`Python Notebooks/`](Python_Notebooks).
 
 | Notebook | Focus | Key questions answered |
 |---|---|---|
@@ -136,7 +136,7 @@ Each notebook filters to one `Type_code` at a time — see [A Critical Note on `
 ---
 
 ## Dashboard
-Location: [`Power BI Dashboards/`](Power%20BI%20Dashboards/)
+Location: [`Power BI Dashboards/`](Power_BI_Dashboards)
 
 An interactive Power BI dashboard with **three tabs** — **Causes**, **Profession**, and **Method** — each filterable by Age Group, State, Gender, and Year.
 
@@ -146,7 +146,7 @@ An interactive Power BI dashboard with **three tabs** — **Causes**, **Professi
 ![Profession Dashboard](Power_BI_Dashboards/Method_Dashboard.png)
 ![Method Dashboard](Power_BI_Dashboards/Profession_Dashboard.png)
 
-The interactive `.pbix` file is available in [`Power BI Dashboards/`](Power%20BI%20Dashboards/) — open with the free Power BI Desktop app.
+The interactive `.pbix` file is available in [`Power BI Dashboards/`](Power_BI_Dashboards) — open with the free Power BI Desktop app.
 
 ---
 
