@@ -37,9 +37,9 @@ This project analyzes over a decade of suicide data reported by India's National
 ---
 
 ## Data Source
-- Original dataset: [Suicides in India (2001–2012) — NCRB via Kaggle](paste-actual-kaggle-link-here)
-- [Raw CSV](Data/Suicides_in_India_2001_2012.csv)
-- [Cleaned CSV](Data/suicides_in_india_cleaned_data.csv)
+- Original dataset: [Suicides in India (2001–2012) — NCRB via Kaggle](https://www.kaggle.com/datasets/rajanand/suicides-in-india)
+- [Raw CSV](Data/Orignal Data/Suicides_in_India_2001_2012.csv)
+- [Cleaned CSV](Data/cleaned data/suicides_in_india_cleaned_data.csv)
 
 ---
 
@@ -118,7 +118,7 @@ WITH (FORMAT csv, HEADER true);
 | | Row count |
 |---|---|
 | Raw dataset | 237,519 |
-| After cleaning | *(fill in your exact count)* |
+| After cleaning | 39531 |
 
 ---
 
@@ -143,9 +143,9 @@ An interactive Power BI dashboard with **three tabs** — **Causes**, **Professi
 
 > **Why the totals differ slightly by tab:** Causes (~1.44M), Profession (~1.44M), and Method (~1.46M) are independently reported categories in the source data, not subsets of one master total — see the `Type_code` note above.
 
-![Causes Dashboard](Charts/causes_dashboard.png)
-![Profession Dashboard](Charts/profession_dashboard.png)
-![Method Dashboard](Charts/method_dashboard.png)
+![Causes Dashboard](Power BI Dashboards/Causes Dashboard.png)
+![Profession Dashboard](Power BI Dashboards/Method Dashboard.png)
+![Method Dashboard](Power BI Dashboards/Profession Dashboard.png)
 
 The interactive `.pbix` file is available in [`Power BI Dashboards/`](Power%20BI%20Dashboards/) — open with the free Power BI Desktop app.
 
@@ -171,7 +171,7 @@ The interactive `.pbix` file is available in [`Power BI Dashboards/`](Power%20BI
 
 ## How to Reproduce
 1. Clone this repository
-2. Load [`Data/Suicides_in_India_2001_2012.csv`](Data/) into PostgreSQL using the scripts in [`SQL/`](SQL/)
+2. Load [`Suicides_in_India_2001_2012.csv`](Data/Original Data/) into PostgreSQL using the scripts in [`SQL/`](SQL/)
 3. Run the cleaning query to generate the cleaned CSV
 4. Open the notebooks in [`Python Notebooks/`](Python%20Notebooks/) in order (Exploratory → State Trend → Demographic → Causes)
 5. Open the `.pbix` file in [`Power BI Dashboards/`](Power%20BI%20Dashboards/) with Power BI Desktop (free) to explore the dashboard interactively
